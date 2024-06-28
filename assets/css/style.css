@@ -32,6 +32,39 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+h1{
+  color: #333;
+  background-color:red;
+  color: white;
+  padding: 10px 20px;  
+  border: 2px solid #ccc;
+  border-radius: 5px;  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3{
+  color: #333;
+  background-color:black;
+  color: white;
+  padding: 10px 20px;  
+  border: 2px solid #ccc;
+  border-radius: 5px;  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h6{
+  color: #333;
+  background-color:white;
+  color: red;
+  padding: 10px 20px;  
+  border: 2px solid #ccc;
+  border-radius: 5px;  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -1497,7 +1530,8 @@ section {
 
 .blog .entry .entry-meta {
   margin-bottom: 15px;
-  color: #0e1011;
+  color: #ff0000;
+  position: relative;
 }
 
 .blog .entry .entry-meta ul {
